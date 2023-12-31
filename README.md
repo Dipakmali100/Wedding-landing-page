@@ -1,6 +1,6 @@
 # Wedding Landing Page
 
-## Figma Design
+## Project live link
 - Project live link: [Click Here](https://dipakmali100.github.io/Wedding-landing-page/)
 
 ## Getting Started
