@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Jost&family=Pacifico&display=swap");
+
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Jost', sans-serif;
+font-family: 'Pacifico', cursive; */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./image/pexels-asad-photo-maldives-169211.jpg"); /* or "contain" for different scaling options */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* Optional: Set a background color in case the image doesn't cover the entire area */
+  /* background-color: #f0f0f0; */
+  /* Ensure the background image covers the entire viewport */
+  height: 800px;
+  overflow-x: hidden;
+}
+
+.main {
+  background-color: #996e6daf;
+  width: 100vw;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  font-family: "Jost", sans-serif;
+  font-size: 25px;
+  /* font-weight: bold; */
+  padding: 40px 500px;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.header span {
+  cursor: pointer;
+}
+.header a :hover{
+  text-decoration: underline;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  font-family: "Jost", sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+}
+.center-contain {
+  display: flex;
+  flex-direction: column;
+  margin-top: 250px;
+  margin-bottom: 220px;
+  gap: 20px;
+  opacity: 0;
+  animation: moveUp 1s ease-in-out 0s forwards;
+}
+
+.welcome-note {
+  display: flex;
+  justify-content: center;
+}
+.main-names {
+  font-family: "Pacifico", cursive;
+  font-size: 70px;
+}
+.wed-short-detail {
+  display: flex;
+  flex-direction: column;
+}
+.line1 {
+  display: flex;
+  justify-content: center;
+}
+.events {
+  background-color: #fff;
+  width: 100vw;
+  height: 820px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.function {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #996e6d;
+  margin-top: 250px;
+  font-family: "Jost", sans-serif;
+  font-size: 25px;
+  opacity: 0;
+  animation: moveUp 1s ease-in-out 0s forwards;
+}
+.function .in-view {
+  animation-play-state: running;
+}
+.function .title {
+  font-family: "Pacifico", cursive;
+  font-size: 55px;
+  display: flex;
+  justify-content: center;
+}
+.function .date {
+  display: flex;
+  justify-content: center;
+}
+.function .location {
+  display: flex;
+  flex-direction: column;
+}
+.line2 {
+  display: flex;
+  justify-content: center;
+}
+.pic1 {
+  margin-top: 400px;
+  animation: moveUp 1s ease-in-out 0s forwards;
+}
+.pic1 img {
+  width: 200px;
+}
+.map-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.map-button button {
+  height: 50px;
+  width: 120px;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  background-color: #996e6d;
+  border-radius: 8px;
+  border: 3px #996e6d;
+}
+.map-button :hover{
+  height: 55px;
+  width: 125px;
+  background-color: #9e6261;
+}
+.invitation-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  height: 800px;
+  background-color: #f4e2e2;
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  color: #996e6d;
+  gap: 40px;
+  padding-top: 100px;
+}
+
+.wedding-invitation-para {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin: 0px 200px;
+  opacity: 0;
+  animation: moveUp 1s ease-in-out 0s forwards;
+}
+.invitation-line1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Pacifico", cursive;
+  font-size: 25px;
+  opacity: 0;
+  animation: moveUp 1s ease-in-out 0s forwards;
+}
+.families {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+  opacity: 0;
+  animation: moveUp 1s ease-in-out 0s forwards;
+}
+.img2 img {
+  width: 100px;
+}
+.line3 {
+  display: flex;
+  justify-content: center;
+}
+.img3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.img3 img {
+  width: 400px;
+}
+.contact {
+  height: 800px;
+  background-color: #fff;
+  color: #996e6d;
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  padding-top: 100px;
+}
+.contact-header {
+  display: flex;
+  justify-content: center;
+  font-family: "Pacifico", cursive;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  opacity: 0;
+  animation: moveUp 1s ease-in-out 0s forwards;
+}
+.contact-para {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin: 0px 200px;
+  opacity: 0;
+  animation: moveUp 1s ease-in-out 0s forwards;
+}
+.line4 {
+  display: flex;
+  justify-content: center;
+}
+.contact-button {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 50px;
+  opacity: 0;
+  animation: moveUp 1s ease-in-out 0s forwards;
+}
+.contact-button :hover{
+  height: 55px;
+  width: 155px;
+  background-color: #9e6261;
+}
+.contact-button button {
+  background-color: #996e6d;
+  color: #fff;
+  border: 3px #996e6d;
+  width: 150px;
+  height: 50px;
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.img4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.img4 img {
+  width: 400px;
+}
+.img5 {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  opacity: 0;
+  animation: moveUp 1s ease-in-out 0s forwards;
+}
+.img5 img {
+  width: 150px;
+}
+
+
+
+/* @keyframes moveUp {
+  to {
+    transform: translateY(-50px);
+  }
+} */
+@keyframes moveUp {
+  to {
+    opacity: 1;
+    transform: translateY(-50px);
+  }
+}
